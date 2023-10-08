@@ -1,0 +1,9 @@
+name: 'Readme Generator'
+description: 'Update nestjs metadata to Readme'
+inputs:
+  out-file:
+    description: 'Output file path'
+    default: 'Readme.md'
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
